@@ -3,9 +3,9 @@
 A tool for collecting packet delay and loss statistics using ICMP echo.
 
 ## Description
-multi-Pings is a tool for collecting packet delay and loss statistics using ICMP echo. it is not a linux command, such as ping or mping.<br>
+Multi-Pings is a tool for collecting packet delay and loss statistics using ICMP echo. It is not a linux command, such as ping or mping.<br>
 * Ability to send ICMP ECHO_REQUEST to multiple hosts simultaneously
-* Hosts ip be read from stdin
+* Host ips be read from stdin
 * The results are output in a specified format
 
 ## Usage
@@ -21,4 +21,4 @@ multi-Pings is a tool for collecting packet delay and loss statistics using ICMP
     p = Pings( hosts, format = fmt, logger = logger )<br>
     rst = p.run()
 </pre></code>
-* For more detailed information of Pings ,please refer to [pings.py](script/pings.py)
+* For more detailed information of Pings, please refer to [pings.py](script/pings.py)
