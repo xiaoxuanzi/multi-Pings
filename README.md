@@ -9,12 +9,12 @@ Multi-Pings is a tool for collecting packet delay and loss statistics using ICMP
 * The results are output in a specified format
 
 ## Usage
-####How to use
+#### How to use
 * make
 * Usage : ./pings -o [OUTPUT_STYLE] <br>
   OUTPUT_STYLE := { stream | json | yaml }
 
-####Example
+#### Example
 * In directory script, a file called pings.py written by PYTHON<br>
   import this module and use like this:<br>
 <pre><code>
